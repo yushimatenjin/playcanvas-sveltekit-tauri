@@ -2,7 +2,7 @@ name: 'publish'
 on:
   push:
     branches:
-      - main # 簡単のため main に変更
+      - main
 
 jobs:
   publish-tauri:
@@ -11,7 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [macos-latest, ubuntu-20.04, windows-latest]
+        platform: [macos-latest, ubuntu-latest, windows-latest]
 
     runs-on: ${{ matrix.platform }}
     steps:
