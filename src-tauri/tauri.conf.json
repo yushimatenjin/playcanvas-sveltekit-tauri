@@ -7,7 +7,7 @@
     "distDir": "../build"
   },
   "package": {
-    "productName": "yuniverse",
+    "productName": "sveltekit-playcanvas-tauri",
     "version": "0.1.0"
   },
   "tauri": {
@@ -58,7 +58,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "yuniverse",
+        "title": "sveltekit-playcanvas-tauri",
         "width": 800
       }
     ]
